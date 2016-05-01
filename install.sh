@@ -1,6 +1,9 @@
 #!/bin/sh
 
 #this is tested 2016-03-18-raspbian-jessie-lite.img
+#sudo apt-get update -y && sudo apt-get upgrade -y
+#sudo apt-get install git -y
+#git clone https://github.com/catonrug/install-dokuwiki-on-raspbian.git && cd install-dokuwiki-on-raspbian && chmod +x install.sh && ./install.sh
 
 #update all repositories and install latest updates
 apt-get update -y && apt-get upgrade
