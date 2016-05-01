@@ -1,4 +1,7 @@
 #!/bin/sh
+
+#this is tested 2016-03-18-raspbian-jessie-lite.img
+
 #update all repositories and install latest updates
 apt-get update -y && apt-get upgrade
 
